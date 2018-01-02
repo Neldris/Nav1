@@ -14,6 +14,7 @@ import {
 
 export default class MainView extends Component{
 
+
     render (){
         return (
             <NavApplication/>

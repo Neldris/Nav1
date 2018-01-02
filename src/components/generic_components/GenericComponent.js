@@ -9,6 +9,7 @@ import {
     Text,
     View,
 } from 'react-native';
+import styles from '../../../resources/styles/Nav1StyleSheet';
 
 export default class GenericComponent extends Component{
 
@@ -24,18 +25,3 @@ export default class GenericComponent extends Component{
     }
 }
 
-const styles = StyleSheet.create({
-    container:{
-        flex:1,
-    },
-    header:{
-        height:50,
-        backgroundColor:'blue',
-        justifyContent: 'center',
-        alignItems: 'center',
-
-    },
-    title:{
-        color:'white',
-    },
-});
